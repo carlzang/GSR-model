@@ -13,4 +13,8 @@ To compute GSR indexs, download the following files to you R working dictionary 
 4. disData : gene expression matrix, the row is the disease samples, the column is the gene symbols of names_common
 
 The SOFT files from different microarray platforms should be intersected to find the genes in common (names_common), only the common genes and the corresponding expression profiles are utilized. 
-The outfiles are 'Rvalue_con' = GSR indexes of cotntrol group;and  'Rvalue_dis' = GSR indexes of disease group
+The outfiles are
+'Rvalue_con_GO_OvcaClear' = GSR indexes of cotntrol group computing through GO term gene sets
+'Rvalue_dis_GO_OvcaClear' = GSR indexes of clear cell ca group computing through GO terms gene sets
+'Rvalue_con_CAN_OvcaClear' = GSR indexes of cotntrol group computing through canonical (Reactome) pathway gene sets
+'Rvalue_dis_CAN_OvcaClear' = GSR indexes of clear cell ca group computing through canonical (Reactome) pathway gene sets
