@@ -1,8 +1,6 @@
-Th files contain an R code for computing the GSR indexes, testing datasets using 85 ovarian clear cell carcinoma  
-and 136 normal ovarian tissue gene expression profiles downloaded from GEO datasets in .SOFT format. The sample information was list in 
-the caselist.csv. 
+The files contain an R code for computing the GSR indexes, testing datasets using 85 ovarian clear cell carcinoma and 136 normal ovarian tissue gene expression profiles downloaded from GEO datasets in .SOFT format. The sample information was list in the caselist.csv. 
 
-To compute GSR indexs, download the following files to R working dictionary
+To compute GSR indexs, download the following files to you R working dictionary : 
 1. go.gmt :  'c5.all.v5.0.symbols.gmt' downloaeded from MSigDB and rename to 'go.gmt' for GO gene set defintions
 
 2. pathway.gmt : ' c2.cp.reactome.v5.0.symbols.gmt' ,downloaeded from MSigDB and rename to 'pathway.gmt' for Reactome pathway gene set defintions
