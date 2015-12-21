@@ -14,7 +14,7 @@
 
 library(combinat)
 
-disease='OvcaClearCell'    # assigning the disease name; ovarian clear cell carcinoma for the dataset 
+disease='OvcaClearCell'    # assigning the disease name, ovarian clear cell carcinoma for the dataset 
 annotation= 'GO'          # usign GO gene set for annotation 
 file= paste('D:/working/DB/geneSet/','go.gmt', sep='')  # location of go.gmt file   
 gs.number= nrow(read.csv(file, header=F))    # gene set number 
