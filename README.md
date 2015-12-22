@@ -14,7 +14,7 @@ To compute GSR indexs, download the following files to you R working dictionary 
 
 The SOFT files from different microarray platforms should be intersected to find the genes in common (names_common), only the common genes and the corresponding expression profiles are utilized. 
 The outfiles are
-'Rvalue_con_GO_OvcaClear' = GSR indexes of cotntrol group computing through GO term gene sets ;
-'Rvalue_dis_GO_OvcaClear' = GSR indexes of clear cell ca group computing through GO terms gene sets ; 
-'Rvalue_con_CAN_OvcaClear' = GSR indexes of cotntrol group computing through canonical (Reactome) pathway gene sets ;
-'Rvalue_dis_CAN_OvcaClear' = GSR indexes of clear cell ca group computing through canonical (Reactome) pathway gene sets .
+'Rvalue_con_GO_OvcaClearCell' = GSR indexes of cotntrol group computing through GO term gene sets ;
+'Rvalue_dis_GO_OvcaClearCell' = GSR indexes of clear cell ca group computing through GO terms gene sets ; 
+'Rvalue_con_CAN_OvcaClearCell' = GSR indexes of cotntrol group computing through canonical (Reactome) pathway gene sets ;
+'Rvalue_dis_CAN_OvcaClearCell' = GSR indexes of clear cell ca group computing through canonical (Reactome) pathway gene sets .
