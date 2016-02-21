@@ -93,10 +93,10 @@ geneset.tot= names(GS)
 if (length(con_template) != length(geneset.tot))   { geneset.tot= geneset.tot[-length(geneset.tot)] }
 names(con_template)=geneset.tot
 con_template.ori= con_template
-con_template= con_template[-gs.nullid]
+if (length(gs.nullid)>0) {con_template= con_template[-gs.nullid]}
 save(con_template, file='load_con_template_GO')
 GS.ori= GS
-GS= GS[-gs.nullid]
+if (length(gs.nullid)>0) {GS= GS[-gs.nullid]}
 save(GS, file=paste('load_GS', annotation, sep='_'))
 
 ###########################################################
@@ -268,9 +268,11 @@ for ( i in 1:length(GS)) {
 geneset.tot= names(GS)
 if (length(con_template) != length(geneset.tot))   { geneset.tot= geneset.tot[-length(geneset.tot)] }
 names(con_template)=geneset.tot
-con_template= con_template[-gs.nullid]
-save(con_template, file='load_con_template_CAN')
-GS= GS[-gs.nullid]
+con_template.ori= con_template
+if (length(gs.nullid)>0) {con_template= con_template[-gs.nullid]}
+save(con_template, file='load_con_template_GO')
+GS.ori= GS
+if (length(gs.nullid)>0) {GS= GS[-gs.nullid]}
 save(GS, file=paste('load_GS', annotation, sep='_'))
 
 ##############################################
